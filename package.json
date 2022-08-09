@@ -1,0 +1,28 @@
+{
+  "name": "matic-staking",
+  "version": "0.0.1",
+  "description": "",
+  "author": "LimeChain",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.28.11",
+    "@cosmjs/stargate": "^0.28.11",
+    "@maticnetwork/maticjs-ethers": "^1.0.0",
+    "@maticnetwork/maticjs-staking": "^1.0.9",
+    "@maticnetwork/maticjs-web3": "^1.0.0",
+    "@truffle/hdwallet-provider": "^1.5.1-alpha.1",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^5.6.9"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
